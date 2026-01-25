@@ -235,7 +235,7 @@ Correction: 補題
 CPU Info: CPU資訊
 Create a contest: 建立一個比賽
 Create a Discussion: 建立一個討論
-Create a Post: 建立一個博文
+Create a Post: 建立一個部落格
 Create a problem: 建立一個題目
 Create Contest: 建立比賽
 Create contests: 建立比賽
@@ -407,9 +407,10 @@ File uploaded successfully.: 上傳檔案成功
 File: 檔案
 Filename: 檔名
 Files: 檔案
+Fill to Pretest: 填充到自測
 Filter: 過濾
-First of Contest: 全場一血
-First of Problem: 題目一血
+First of Contest: 全場首殺
+First of Problem: 題目首殺
 fontFamily: 字型
 Footer: 頁尾
 Footnote: 腳註
