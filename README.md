@@ -1,8 +1,13 @@
 # ddj-v2-ui-setting
 ddj-v2 powered by https://github.com/hydro-dev/Hydro
 
-## addon  設定
+## 第一次 publish
+```sh
+npm login
+npm publish --access public
+```
 
+## addon  設定
 1. 安裝 CI/CD 所需套件
 ```sh
 npm install -D semantic-release \
@@ -26,6 +31,33 @@ npm install -D semantic-release \
   ]
 }
 ```
+
+
+`.npmignore`
+```sh
+# 排除所有隱藏檔案與資料夾
+.*
+!/.npmignore
+
+# 排除 CI 與開發工具設定
+.github/
+.vscode/
+node_modules/
+*.log
+
+# 排除測試與原始碼 (如果你的 build 結果在 dist/ 或 lib/)
+test/
+tests/
+src/
+__tests__/
+jest.config.js
+tsconfig.json
+
+# 排除 semantic-release 可能產生的檔案
+release.config.js
+.releaserc
+```
+
 
 3. github action
 `.github/workflows/publish.yml`
