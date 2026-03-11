@@ -6,6 +6,12 @@ ddj-v2 powered by https://github.com/hydro-dev/Hydro
 npm login
 npm publish --access public
 ```
+```sh
+# 建立對應 npm 現有版本的 Tag
+git tag v1.0.0
+# 推送到遠端
+git push origin v1.0.0
+```
 
 ## addon  設定
 1. 安裝 CI/CD 所需套件
@@ -93,3 +99,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
+
+## npm 設定
+https://docs.npmjs.com/trusted-publishers 參考
