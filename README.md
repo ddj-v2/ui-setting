@@ -102,3 +102,11 @@ jobs:
 
 ## npm 設定
 https://docs.npmjs.com/trusted-publishers 參考
+
+記得package.json要有
+```json
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fudan-Computer-Science/ddj-v2-ui-setting.git"
+  }
+```
